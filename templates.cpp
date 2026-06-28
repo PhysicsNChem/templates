@@ -7,14 +7,15 @@ using namespace std;
 
 template<typename T>
 T half(T input){
-    input / 2;
+    return input / 2;
 }
+
 int main() {
     double a = 7.0;
     float b = 5.0f;
     int c = 3;
 
-
+    cout << half(a) << endl;
     std::cout << "Hello World!\n";
 }
 
