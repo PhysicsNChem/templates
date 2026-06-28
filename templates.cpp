@@ -16,7 +16,10 @@ int main() {
     int c = 3;
 
     cout << half(a) << endl;
-    std::cout << "Hello World!\n";
+    cout << half(b) << endl;
+    cout << half(c) << endl;
+
+    
 }
 
 
